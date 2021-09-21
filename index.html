@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exam</title>
+
+    <!-- Styles  -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div class="app">
+        <header>
+            <div class="bg-header">
+                <nav class="desktop show">
+                    <ul>
+                    <li class="logo"><img src="./assets/images/ee0b41a3d6cb20ccd6de9607fce8e349.jpeg" alt="img2"></li>
+                    <li class="float-right"><a href="#">Contact</a></li>
+                    <li class="float-right"><a href="#">Services</a></li>
+                    <li class="float-right"><a href="#">Products</a></li>
+                    <li class="float-right"><a href="#">Markets</a></li>
+                    <li class="float-right"><a href="#">About Us</a></li>
+                    <li class="float-right active"><a href="#" act>Home</a></li>
+                    </ul>
+                </nav>
+
+                 <!-- Mobile menu  start-->
+                 <nav class="desktop hide">
+                    <ul>
+                      <li class="logo"><img src="./assets/images/ee0b41a3d6cb20ccd6de9607fce8e349.jpeg" alt="img2"></li>
+                      <li class="float-right">
+                          <span onclick="openNav()">&#9776;</span>
+                      </li>
+                    </ul>
+                </nav>
+                
+                <div id="hamburgerMenu" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                      <a href="#">Home</a>
+                      <a href="#">About Us</a>
+                      <a href="#">Markets</a>
+                      <a href="#">Products</a>
+                      <a href="#">Services</a>
+                      <a href="#">Contact</a>
+                    </div>
+                </div>
+                <!-- Mobile menu  end-->
+                
+                <section class="wrapper-future">
+                    <div class="row">
+                        <div class="col-5"></div>
+                        <div class="col-7 column-right">
+                            <hr class="divider">
+                            <h1>BRING THE FUTURE TO LIFE</h1>
+                            <p>Never miss the advantage of a fast and secured payment processing, <br>
+                                AiPaygo will help you grow regardless at what stage your business is.
+                            </p>
+                            <div class="btn-wrapper">
+                                <div class="row">
+                                    <div class="col-4 ">
+                                        <button class="btn btn1">LEARN MORE</button>
+                                    </div>
+                                    <div class="col-4 ">
+                                        <button class="btn btn2">GET STARTED</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </header>
+
+        <section class="mobile hide">
+            <div class="future-row hide" >
+              <div class="column-right">
+                <hr class="divider">
+                <h1>BRING THE FUTURE TO LIFE</h1>
+                <p>Never miss the advantage of a fast and secured payment processing, <br>
+                  AiPaygo will help you grow regardless at what stage your business is.
+                </p>
+                <div class="btn-wrapper">
+                  <div class="row">
+                    <div class="col-4 ">
+                      <button class="btn btn1">LEARN MORE</button>
+                    </div>
+                    <div class="col-4 ">
+                      <button class="btn btn2">GET STARTED</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="col-6 bg-scanner">
+              <div class="overlay"></div>
+              <h1>AIPAYGO IS YOUR MODERNIZED SOLUTION FOR A FAST AND EASY PAYMENT</h1>
+              <hr>
+              <p>Take your business to another level by choosing rapid and essential payment processor,
+                designed for every class of business.
+              </p>
+              <button class="btn btn1">KNOW MORE</button>
+            </div>
+        
+            <div class="col-6 wrapper icon">
+              <div class="triangle"></div>
+              <div class="wrapper">
+                <span>
+                  why choose aipaygo?
+                </span>
+              </div>
+              <div class="row" style="margin-top: 5rem;">
+                <div class="col-1"></div>
+                <div class="col-3">
+                  <img src="./assets/images/fast-time.png" alt="clock" style="width: 90px;">
+                </div>
+                <div class="col-8">
+                  <h1>FAST & EASY</h1>
+                  <br>
+                  <p>
+                    Get paid in hassle-free and quicker way. We made it simple by
+                    providing a payment processor designed for your convenience.
+                  </p>
+                </div>
+              </div>
+              <div class="row" style="margin-top: 1rem;">
+                <div class="col-1"></div>
+                <div class="col-3">
+                  <img src="./assets/images/admin.png" alt="clock" style="width: 80px;">
+                </div>
+                <div class="col-8">
+                  <h1>SUSTAINED WITH PRIME TECH</h1>
+                  <br>
+                  <p>
+                    AiPayGo is supported by the leading technologies and  servies to secure
+                    the perfection and stability of your payment processing.
+                  </p>
+                </div>
+              </div>
+              <div class="row" style="margin-top: 1rem;">
+                <div class="col-1"></div>
+                <div class="col-3">
+                  <img src="./assets/images/world.png" alt="clock" style="width: 80px;">
+                </div>
+                <div class="col-8">
+                  <h1>SERVICE WORLDWIDE</h1>
+                  <br>
+                  <p>
+                    We extend our assistance by providing technical support accross the globe.
+                  </p>
+                </div>
+              </div>
+            </div>
+        </section>
+    </div>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

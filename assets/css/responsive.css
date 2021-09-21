@@ -1,0 +1,141 @@
+@media screen and (max-width: 1200px) {
+
+    /* Header */
+    .bg-header {
+        background-position: bottom;
+    }
+
+    .btn-wrapper .col-4 {
+        width: 41.66%;
+    }
+
+    /* Navigation Bar */
+    nav {
+        padding: 2rem 2rem 0;
+    }
+}
+
+@media screen and (min-width: 993px) {
+
+    /* Navigation Bar */
+    .desktop.show{
+        display: block;
+    }
+
+    .desktop.hide {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    /* Navigation Bar */
+    .desktop.show {
+        display: none;
+    }
+
+    .desktop.hide {
+        display: block;
+    }
+
+    .float-right {
+        padding-top: 1.5rem;
+    }
+
+    /* Header */
+    .bg-header {
+        background-position: unset;
+    }
+
+    .column-right {
+        padding: 5rem;
+    }
+
+    .bg-scanner {
+        padding: 8rem 2rem;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    .wrapper-future {
+        display: block;
+    }
+
+    .mobile.hide {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Header */
+    .bg-header {
+        background-size: cover;
+        height: 80vh;
+    }
+
+    .wrapper-future {
+        display: none;
+    }
+
+    .mobile.hide {
+        display: block;
+    }
+
+    .future-row.hide {
+        background: var(--black);
+    }
+
+    .column-right {
+        padding: 3rem;
+    }
+
+    .btn-wrapper .col-4 {
+        width: 25%;
+        margin-top: 3rem;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    /* header */
+    .bg-header {
+        background-position: -80px;
+    }
+
+    /* Bring the future row */
+    .btn-wrapper .col-4 {
+        width: 50%;
+    }
+
+    ul {
+        padding: 0 1rem;
+    }
+
+    .bg-scanner {
+        padding: 6rem 2rem;
+    }
+}
+
+@media screen and (max-height: 450px) {
+
+    .overlay a {
+        font-size: 20px
+    }
+    
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
